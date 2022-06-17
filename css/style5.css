@@ -82,9 +82,14 @@ body{
 }
 
 
-.content-text2{
-  
+.content-text2 {
+ padding: 0 0 10px 0;
+
 }
+.content-text2 span{
+   padding: 0 0 0 25px;
+}
+  
 
 
 .block-img{
@@ -127,16 +132,67 @@ body{
   
    
 }
-.content-bottom-info{
-   padding: 60px 0 0px 0;
-}
+
+ .media{
+   padding: 0 0 0 200px ;
+   
+ }
+
+ .like-0{
+   border-radius: 3px;
+   padding: 3px 9px 3px 9px;
+   margin: 0 10px 0 30px;
+   background-color: rgb(29, 119, 172);
+   color: #fff;
+
+ }
+
+ .twitter{
+   border-radius: 15px;
+   padding: 3px 12px 3px 12px;
+   background-color: rgb(106, 188, 255);
+   color: #fff;
+ }
+
+ .like{
+   text-decoration-line: underline;
+   margin-left: -4px;
+   color: rgb(22, 111, 163);
+ }
 
 .line2{
    border-bottom: 1px solid rgba(201, 201, 197, 0.986);
    padding: 8px;
 }
-.block-info-link{
-   padding:60px 0 0px 0 ;
+
+.devel {
+   text-decoration: underline;
+   color: rgb(92, 87, 87);
+   text-align: right;
+   font-weight: 700;
+   font-size: 12px;
+   padding: 40px 10px 0 150px ;
+    
 }
 
+.devel span{
+   color: rgb(92, 87, 87)
+}
+.block-info-link{
+   padding:0px 0 30px 20px ;
+   font-weight: 700;
+   font-size: 13px;
+   
+   word-spacing: 8px;
+}
+.block-info-link span{
+   text-decoration: underline;
+   color: rgb(92, 87, 87);
+}
 
+.block-info-link span1{
+   text-decoration: underline;
+   color: rgb(92, 87, 87);
+   padding:0px 0 0 350px;
+
+}
